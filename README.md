@@ -1,25 +1,23 @@
 
 # Predicting annual medical expenditure for new customers
 
-QUESTION: ACME Insurance Inc. offers affordable health insurance to thousands of customer all over the United States. As the lead data scientist at ACME, you're tasked with creating an automated system to estimate the annual medical expenditure for new customers, using information such as their age, sex, BMI, children, smoking habits and region of residence.
+QUESTION: The Rain in Australia dataset contains about 10 years of daily weather observations from numerous Australian weather stations.
 
-You're given a CSV file containing verified historical data, consisting of the aforementioned information and the actual medical charges incurred by over 1300 customers.
+As a data scientist at the Bureau of Meteorology, you are tasked with creating a fully-automated system that can use today's weather data for a given location to predict whether it will rain at the location tomorrow.
+
 ## Dataset
 
-url =  'https://raw.githubusercontent.com/JovianML/opendatasets/master/data/medical-charges.csv'
+url =  'https://www.kaggle.com/jsphyg/weather-dataset-rattle-package'
 
 The dataset can be downloaded from the above url.
+
 ## Roadmap
 
 - Exploratory Data Analysis and Visualization
-- Analyzing target variable with other features
-- Correlation between the features
-- Linear Regression using single feature
-- Converting categorical column into numeric and using that in the model training
-- Feature Scaling
-- Training the model using Test and Train data set
-
-
+- Dealing with missing numbers using SimpleImputer
+- Training the model using Logistic Regression
+- Taining the model using Decision Tree
+- Evaluating using Accuracy and confusion matrix
 
 ## Summary
 
